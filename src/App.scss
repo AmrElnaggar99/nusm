@@ -1,0 +1,558 @@
+$bg-blue: #ccecff;
+$text-blue: #1A55AF;
+$bg-grey: #F8F8F9;
+$bg-grey-dark: #141414;
+$text-grey: #787C84;
+$bg-purple: #e0d4ed;
+$text-purple: #5843BE;
+$bg-orange: #ffe2d9;
+$text-orange: #FA5F1C;
+$bg-yellow: #ffeca3;
+$text-yellow: #dea00b;
+$bg-pink:#ffcccc;
+$text-pink:#e84393;
+$bg-green:#D4EDDA;
+$text-green:#155724;
+$bg-teal:#D1ECF1;
+$text-teal:#0c5460;
+$bg-red:#F8D7DA;
+$text-red:#721c24;
+
+$main: #0099FF;
+
+$rad: 10px;
+
+
+.light-mode {
+    .ScrollbarsCustom-Track.ScrollbarsCustom-TrackY {
+    width: 7px !important;
+    background-color: $bg-grey !important;
+    .ScrollbarsCustom-Thumb.ScrollbarsCustom-ThumbY {
+        background-color: $text-grey !important;
+    }
+}
+    .FilteredMultiSelect__filter{
+    background-color: $bg-grey;
+}
+    background-color: #FFF;
+    
+    .schedule-card {
+            background-color: #F6F7F8;
+    }
+    .schedules-head{
+        button{
+            background-color:$bg-grey;
+            &.active,
+                &:active,
+                .active,
+                .active:hover {
+                    background-color: $text-purple !important;
+                }
+                &:hover {
+                    cursor: pointer;
+                    background-color: $bg-purple;
+                }
+        }
+    }
+    .blue-card {
+    background-color: $bg-blue;
+    color: $text-blue;
+}
+
+.orange-card {
+    background-color: $bg-orange;
+    color: $text-orange;
+}
+
+.purple-card {
+    background-color: $bg-purple;
+    color: $text-purple;
+}
+
+.yellow-card {
+    background-color: $bg-yellow;
+    color: $text-yellow;
+}
+
+.teal-card {
+    background-color: $bg-teal;
+    color: $text-teal;
+}
+
+.green-card {
+    background-color: $bg-green;
+    color: $text-green;
+}
+
+.red-card {
+    background-color: $bg-red;
+    color: $text-red;
+}
+
+.pink-card {
+    background-color: $bg-pink;
+    color: $text-pink;
+}
+.cofigure-courses{
+    ul{
+        li{
+            background: $bg-blue;
+        }
+    }
+    input {
+
+                color: $text-blue;
+                border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+
+                &:active,
+                &:focus {
+                    border-color: $text-blue
+                }
+            }
+            button {
+              
+                color: $text-blue;
+               
+            }
+}
+.select-wrapper{
+    background-color:#FFF;
+}
+}
+
+.dark-mode {
+    background-color: #000;
+    color: #FFF;
+    .schedule-card {
+            background-color: $bg-grey-dark;
+    }
+    .schedules-head{
+        button{
+            background-color:$bg-grey-dark;
+            &.active,
+                &:active,
+                .active,
+                .active:hover {
+                    background-color: $text-purple !important;
+                }
+                &:hover {
+                    cursor: pointer;
+                    background-color: $bg-purple;
+                }
+        }
+    }
+    .course-slot{color:#FFF}
+    .blue-card {
+    background-color: $text-blue;
+}
+
+.orange-card {
+    background-color: $text-orange;
+}
+
+.purple-card {
+    background-color: $text-purple;
+}
+
+.yellow-card {
+    background-color: $text-yellow;
+}
+
+.teal-card {
+    background-color: $text-teal;
+}
+
+.green-card {
+    background-color: $text-green;
+}
+
+.red-card {
+    background-color: $text-red;
+}
+
+.pink-card {
+    background-color: $text-pink;
+}
+.cofigure-courses{
+    ul{
+        li{
+            background: $text-blue;
+            color:#FFF;
+        }
+    }
+    input {
+                        border-bottom: 3px solid rgba(255, 255, 255, 0.5);
+
+                color: #FFF;
+                &:active,
+                &:focus {
+                    border-color: #FFF
+                }
+            }
+            button {
+                color: $bg-blue;
+            }
+}
+.FilteredMultiSelect__filter{
+    background-color: $bg-grey-dark;
+}
+.select-wrapper{
+    background-color:$bg-grey-dark;
+    select{
+    background-color:$bg-grey-dark;
+
+    }
+}
+.ScrollbarsCustom-Track.ScrollbarsCustom-TrackY {
+    width: 7px !important;
+    background-color: $bg-grey-dark !important;
+    .ScrollbarsCustom-Thumb.ScrollbarsCustom-ThumbY {
+        background-color: $bg-grey !important;
+    }
+}
+.choose-courses-btn {
+    &:disabled {
+        background: $bg-grey-dark;
+    }
+}
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border-radius: $rad !important;
+}
+
+.btn-container {
+    padding: 0 1rem;
+}
+
+.done-button {
+    margin-top: 15px;
+}
+
+.brand-text {
+    font-weight: 700;
+}
+
+.last-update-date {
+    color: $text-grey;
+}
+
+.select-courses,
+.cofigure-courses,
+.main-app {
+    width: 100%;
+}
+.main-head{
+    h1 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    h5 {
+        margin-top: 50px;
+        font-size: 1rem;
+        padding: 0 1rem;
+        margin-bottom: 0;
+    }
+}
+.cofigure-courses {
+    padding: 0.5rem 0.2rem;
+}
+
+.choose-courses-btn {
+    svg {
+        margin-left: 15px;
+    }
+}
+
+.single-slot {
+    color: $text-grey;
+    font-weight: 700;
+    font-size: 0.7rem;
+    white-space: nowrap; 
+    overflow:hidden;
+    text-overflow: ellipsis;
+    border-radius: $rad;
+    margin-top: 5px;
+    &.course-slot{
+    white-space: normal;
+    word-break: break-all;
+    text-overflow: clip;
+
+    }
+}
+
+.horizontal-cards {
+    .single-slot {
+        text-align: center;
+        &.head-type {
+            padding: 1rem 0.3rem;
+        }
+        &.side-type {
+            padding: 1rem 0.3rem;
+        }
+    }
+}
+
+.vertical-cards {
+    .single-slot {
+        height: 80px;
+        text-align: center;
+        &.head-type {
+            padding: 15px 0;
+        }
+        &.side-type {
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+    .course-slot {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+}
+#change_mode{
+    display:block;
+}
+#change_layout{
+    display:none
+}
+.main-app {
+    padding: 1rem;
+    .schedule-cards {
+        .schedule-card {
+            width: 100%;
+            display: block;
+            .no-pad {
+                padding: 0.3rem;
+            }
+        }
+        // &.vertical-cards {
+        //     .schedule-card {
+        //         height: 580px;
+        //     }
+        // }
+    }
+    .schedule-card {
+        border-radius: $rad;
+        margin-top: 20px;
+    }
+    .schedules-head {
+        margin-bottom: 1rem;
+        h2 {
+            font-size: 3rem;
+            font-weight: 700;
+            display: inline-block;
+        }
+        span {
+            margin-right: 15px;
+            button {
+                border: 0;
+                color: $text-grey;
+                height: 40px;
+                width: 40px;
+                margin-left: 10px;
+                border-radius: $rad;
+                &.active,
+                &:active,
+                .active,
+                .active:hover {
+                    color: #FFF !important
+                }
+                &:hover {
+                    cursor: pointer;
+                    color: $text-purple;
+                }
+            }
+        }
+    }
+}
+.select-courses,
+.main-app {
+    height: 97vh;
+}
+
+.head-info {
+    height: 35vh;
+}
+
+.choose-courses-btn {
+    background-color: $text-blue;
+    border: 0;
+    color: #FFF;
+    font-weight: 700;
+    text-align: center;
+    padding: 1rem;
+    display: block;
+    width: 100%;
+    &:disabled {
+        color: $text-grey
+    }
+}
+
+.filter-form {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    vertical-align: top;
+    overflow: hidden;
+    display: inline-block;
+    select {
+        height: 20vh;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .phone-collapse {
+        position: fixed;
+        padding-right: 1rem;
+        width: inherit;
+        max-width: inherit;
+    }
+    .choose-courses-btn {
+        display: none
+    }
+
+}
+
+@media screen and (min-width:992px) {
+        #change_mode{
+        display:inline-block;
+    }
+        #change_layout{
+        display: inline-block;
+    }
+    .schedules-head {
+        padding-top: 50px;
+        span {
+            float: right
+        }
+    }
+    .filter-form {
+        select {
+            height: 30vh;
+        }
+    }
+    .wrapper {
+        padding: 0.7rem;
+    }
+}
+
+.select-courses {
+    position: relative;
+    padding: 1rem;
+    
+    small.notice {
+        color: $text-grey;
+        display: block;
+    }
+    small {
+        padding: 0 1rem;
+    }
+    .select-wrapper {
+        box-shadow: 0 0 23px rgba(0, 0, 0, 0.2);
+        margin: 1rem;
+        overflow: hidden;
+        border-radius: $rad;
+        display: block;
+        margin-bottom: 0;
+    }
+    .FilteredMultiSelect {
+        .FilteredMultiSelect__filter {
+            color: $text-grey;
+            border: 0;
+            margin-bottom: 10px;
+            padding: 1rem 0.8rem;
+            width: 100%;
+            // border-radius: $rad;
+            &:active,
+            &:focus {
+                background-color: $text-blue;
+                color: #FFF;
+            }
+        }
+        select {
+            border-radius: $rad;
+            border: 0;
+            width: 100%;
+            color: #A5AAB5;
+            padding-left: 0.5rem;
+            padding-right: 1rem;
+            right: -1.5rem;
+            position: relative;
+            font-size: 0.9rem;
+            option {
+                padding: 0.5rem 1rem;
+                border-radius: $rad;
+            }
+        }
+        select[multiple]:focus option:checked {
+            background: $main linear-gradient(0deg, $main 0%, $main 100%);
+        }
+        button {
+            display: none;
+        }
+    }
+    .done-button {
+        display: block;
+        border-radius: 0;
+        font-weight: bold;
+        width: 100%;
+        box-shadow: 0 0 23px rgba(0, 0, 0, 0.2);
+        padding: 1rem;
+    }
+}
+
+.cofigure-courses {
+    .slots-head {
+        font-size: 0.75rem;
+        display: block;
+        overflow: hidden;
+        padding: 0 1rem;
+        text-align: right;
+        span {
+            padding: 0 0.3rem 0.3rem;
+            display: inline-block;
+        }
+    }
+    ul {
+        list-style-type: none;
+        padding-left: 0;
+        text-align: left;
+        li {
+            padding: 0.3rem 1rem;
+            margin-top: 0.3rem;
+            color: $text-blue;
+            border-radius: $rad;
+            font-weight: 700;
+            font-size: 0.9rem;
+            &:first-child {
+                margin-top: 0
+            }
+            .slots-per {
+                float: right;
+            }
+            input {
+                background: 0;
+                border: 0;
+                display: inline-block;
+                width: 18px;
+                margin: 0 5px;
+                text-align: center;
+            }
+            button {
+                float: left;
+                border: 0;
+                background: 0;
+                font-weight: bold;
+                font-size: 1rem;
+                padding-right: 0.8rem;
+            }
+        }
+    }
+}
